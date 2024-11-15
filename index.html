@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac Northington Portfolio</title>
+    <style>
+        body {
+            background-color: #007bff; /* Solid blue background */
+            font-family: sans-serif;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .rectangle {
+            background-color: white;
+            color: black;
+            padding: 20px 40px;
+            margin: 10px;
+            color: #007bff;
+            font-weight: 1001;
+
+            border-radius: 50px; /* Fully rounded rectangle */
+            transform-origin: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+        }
+
+        #rectangle1 {
+            transform: rotate(-15deg);
+            margin-bottom: 30px;
+
+        }
+
+        #rectangle2 {
+            transform: rotate(15deg);
+            margin-bottom: 10px;
+
+        }
+
+        #rectangle3, #rectangle4 {
+            transform: rotate(15deg);
+            margin-bottom: 10px;
+            padding: 10px;
+
+
+
+        }
+
+
+
+        .circle {
+            background-color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="rectangle" id="rectangle1">
+            <span>Isaac</span>
+        </div>
+
+        <div class="rectangle" id="rectangle2">
+            <span>Northington</span>
+        </div>
+        <div class="rectangle" id="rectangle3">
+            <span>Portfolio -></span>
+        </div>
+        <div class="rectangle" id="rectangle4">
+            <span>Contact -></span>
+        </div>
+    </div>
+</body>
+</html>
